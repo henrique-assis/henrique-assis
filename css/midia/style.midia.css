@@ -1,0 +1,117 @@
+#header {
+    margin-bottom: 120px;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.row2 {
+    margin-top: 56px;
+}
+
+.container-card {
+    display: flex;
+    margin-left: 20px;
+}
+
+.card-principal {
+    width: 652px;
+    height: 550px;
+}
+
+.card-principal img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.coluna-cards {
+    display: flex;
+}
+
+.card {
+    width: 326px;
+    height: 275px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.container-midias {
+    margin-left: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.slick-initialized .slick-slide {
+    margin-right: 170px;
+}
+
+.slick-slide img {
+    width: 230px;
+    margin-left: 0px;
+    height: 230px;
+}
+
+.slick-slide:focus {
+    outline: none !important;
+}
+
+@media (max-width: 1100px) {
+    .carousel {
+        width: 100%;
+    }
+    .container-card {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .card-principal,
+    .card-secundario {
+        margin: auto;
+    }
+}
+
+@media (max-width: 670px) {
+    .card-principal {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .card-principal,
+    .card-secundario {
+        margin: 0px;
+    }
+}
+
+.contactt {
+    position: relative;
+    top: -136px;
+}
+
+.container2 {
+    display: block;
+    margin: auto;
+}
+
+div#formulario {
+    display: contents !important;
+}
