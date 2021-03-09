@@ -1,0 +1,22 @@
+.image-slide.bg-fixed{
+    background-image: url("/images/noticias/banner\ noticia.jpg") !important;
+}
+
+.titulo-noticia{
+    max-width: 1000px !important;
+    text-align: left !important;
+}
+.title>h2{
+
+    font-weight: bold;
+
+}
+
+.title p{
+    margin-top: 35px;
+}
+
+#header{
+    height: 480px !important;
+}
+
