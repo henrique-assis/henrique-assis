@@ -1,2 +1,0 @@
-# SiteBMS
-Site da BMS

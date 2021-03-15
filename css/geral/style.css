@@ -451,10 +451,7 @@ a {
     .header-slide .image-slide .slider-content {
         padding-top: 24vmin;
     }
-
 }
-
-
 
 .header-slide .image-slide .slider-content h1 {
     font-size: 8vmin;
@@ -851,18 +848,14 @@ span.quot-name:before {
     .counter-icon {
         font-size: 50px;
     }
-    .logo img{
+    .logo img {
         width: 100px;
     }
-    
-    a.navbar-brand{
+    a.navbar-brand {
         top: -12%;
         margin-bottom: 10px;
     }
-
 }
-
-
 
 .counter-content {
     float: left;
@@ -1160,6 +1153,7 @@ address span a {
     color: #008ED6;
 }
 
+
 /* img.teste {
     width: 70%;
     position: relative;
@@ -1171,11 +1165,12 @@ img.logo {
     width: 150px;
 }
 
-a.navbar-brand{
+a.navbar-brand {
     position: relative;
     top: -28px;
 }
-button#botaoNamidia{
+
+button#botaoNamidia {
     left: 32% !important;
     margin-top: 20px !important;
     background-color: black;
@@ -1183,18 +1178,19 @@ button#botaoNamidia{
     color: #fff;
 }
 
-@media(max-width: 768px) {
+button#Botão-Gt {
+    margin-top: 20px !important;
+    background-color: black;
+    border-color: #fff;
+    color: #fff;
+}
 
+@media(max-width: 768px) {
     img.logo {
         width: 100px;
     }
-    
-    a.navbar-brand{
-
+    a.navbar-brand {
         top: -10px;
         margin-bottom: 15px;
-    
     }
 }
-
-
